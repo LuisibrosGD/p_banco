@@ -24,7 +24,6 @@ export default function LoginScreen({ onNavigate, toggleTheme, isDarkMode }) {
         <input type="text" placeholder="Número de DNI" className="w-full min-h-[56px] px-4 rounded-2xl border mb-4 focus:ring-2 focus:ring-blue-500 outline-none text-lg transition-all bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-700 text-gray-900 dark:text-white" />
         <input type="password" placeholder="Clave digital" className="w-full min-h-[56px] px-4 rounded-2xl border mb-4 focus:ring-2 focus:ring-blue-500 outline-none text-lg transition-all bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-700 text-gray-900 dark:text-white" />
       </div>
-      </div>
       <div className="mt-auto mb-6 space-y-4">
         <button onClick={handleLogin} disabled={isLoading} className="w-full min-h-[56px] bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-semibold flex items-center justify-center space-x-2 active:scale-95 transition-all text-lg">
           {isLoading ? (
