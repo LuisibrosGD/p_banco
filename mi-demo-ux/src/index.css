@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+@keyframes slideRight {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+.animate-slide-right {
+  animation: slideRight 0.3s ease-out forwards;
+}
